@@ -1,5 +1,5 @@
-name: 'ai-code-buddies'
-description: 'perform code reviews using the openai gpt3.5-turbo and custom prompts'
+name: 'ai-code-buddies-pr'
+description: 'perform code reviews using the openai gpt4 and custom prompts'
 inputs:
   openai_api_key:
     description: 'openai api key'
