@@ -1,5 +1,8 @@
 name: 'ai-code-buddies-pr'
 description: 'perform code reviews using the openai gpt4 and custom prompts'
+branding:
+  icon: 'a1rrow-up-circle'
+  color: 'green'
 inputs:
   openai_api_key:
     description: 'openai api key'
