@@ -38,11 +38,21 @@ inputs:
       are critical factors as well. Look to some of the best C++ game and game engine developers in history such
       as John Carmack, Micheal Abrash, Tim Sweeney, and any others you can think of that would be part of the best game development studio. Also consider that
       you will only be able to view snippets and you'll need to make assumptions about parts of the code that will be missing, when this happens outline your 
-      assumptions in your response.
+      assumptions in your response. Avoid providing feedback on style, documentation, or comments unless it has direct run-time implications. If applicable, 
+      provide code examples or links to reference material. 
+      ALWAYS reply in this format:
+      File:{filename}
+      Reviewer:{reviewer}
+      Comments:{response};
+      Please review the following C++ code and provide feedback that can be used to improve it, consider that you won't be able to examine the entire code base
+      so make assumptions about what other parts of the code look like and when you do remember to note that in your feedback. 
+      assumptions in your response. Avoid providing feedback on naming convention style, documentation, or comments. Provide code examples or links to references
+      when appropriate.
       ALWAYS reply in this format:
       File:{filename}
       Reviewer:{reviewer}
       Comments:{response}
+
     required: false
 
 runs:
