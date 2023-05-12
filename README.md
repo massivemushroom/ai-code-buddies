@@ -4,6 +4,8 @@ Perform code reviews using the OpenAI GPT-3.5-turbo and custom prompts. Code sni
 
 There are defaults for most of the inputs listed below, you can view them in the actions.yml.
 
+https://www.playtheory.io/post/ai-assisted-reviews-on-github-now
+
 ## Inputs
 
 ### `openai_api_key`
