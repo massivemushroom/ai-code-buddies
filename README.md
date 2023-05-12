@@ -33,7 +33,7 @@ To use the `ai-code-buddies` GitHub Action, add the following snippet to your wo
 ```yaml
 steps:
   - name: ai-code-buddies
-    uses: rebelcoder/ai-code-buddies@develop
+    uses: playtheorygames/ai-code-buddies@v1.0.0
     with:
       openai_api_key: ${{ secrets.OPENAI_API_KEY }}
       source_file_extensions: ".h,.cpp,.c"
