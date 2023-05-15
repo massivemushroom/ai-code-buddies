@@ -13,7 +13,7 @@ inputs:
     required: false
   exclude_paths:
     description: 'exclusion paths'
-    default: "_documentation/,_idea_templates/"
+    default: "_documentation/,_idea_templates/,theoryengine/core/ext/"
     required: false
   github_token:
     description: 'defaults to {{ github.token }}, this is the default github token available to actions only replace if you need custom permissions.'
