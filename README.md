@@ -4,6 +4,8 @@ Perform code reviews using the OpenAI GPT-3.5-turbo and custom prompts. Code sni
 
 There are defaults for most of the inputs listed below, you can view them in the actions.yml.
 
+https://www.playtheory.io/post/ai-assisted-reviews-on-github-now
+
 ## Inputs
 
 ### `openai_api_key`
@@ -33,7 +35,7 @@ To use the `ai-code-buddies` GitHub Action, add the following snippet to your wo
 ```yaml
 steps:
   - name: ai-code-buddies
-    uses: rebelcoder/ai-code-buddies@develop
+    uses: playtheorygames/ai-code-buddies@v1.0.0
     with:
       openai_api_key: ${{ secrets.OPENAI_API_KEY }}
       source_file_extensions: ".h,.cpp,.c"
